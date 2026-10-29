@@ -9,21 +9,13 @@ function NotFound() {
       <h2 className="text-xl font-semibold mb-3">Page Not Found</h2>
       <p className="text-muted mb-6">The page you are looking for does not exist.</p>
 
-      {/* <a
-        href="/"
-        className="bg-accent hover:bg-accent-hover text-white rounded px-4 py-2 inline-block font-medium"
-      >
-        Back to Home
-      </a> */}
-
       <Link
         to="/"
         className="bg-accent hover:bg-accent-hover text-white rounded px-4 py-2 inline-block font-medium"
       >
         Back to Home
       </Link>
-
-      {/* Here also with a page will Reload but with link it will not */}
+      
     </main>
   );
 }
